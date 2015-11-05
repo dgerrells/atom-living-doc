@@ -1,0 +1,19 @@
+{
+  "name": "living-doc",
+  "main": "./lib/living-doc",
+  "version": "0.0.1",
+  "description": "Helps maintain living documentation",
+  "keywords": [
+  ],
+  "activationEvents": [
+    "living-doc:open",
+    "living-doc:open-markdown"
+  ],
+  "repository": "https://github.com/atom/living-doc",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

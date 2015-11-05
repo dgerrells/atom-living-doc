@@ -1,0 +1,26 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Open Living Doc'
+      'command': 'living-doc:open'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Living Doc'
+      'submenu': [
+        {
+          'label': 'Open Living Doc'
+          'command': 'living-doc:open'
+        },
+        {
+          'label': 'Open Living Doc Preview'
+          'command': 'living-doc:open-markdown'
+        }
+      ]
+    ]
+  }
+]
