@@ -1,10 +1,9 @@
 {
   "name": "living-doc",
   "main": "./lib/living-doc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Helps maintain living documentation",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationEvents": [
     "living-doc:open",
     "living-doc:open-markdown"
@@ -14,6 +13,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
