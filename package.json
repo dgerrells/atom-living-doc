@@ -1,7 +1,7 @@
 {
   "name": "living-doc",
   "main": "./lib/living-doc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Helps maintain living documentation",
   "keywords": [],
   "activationEvents": [
