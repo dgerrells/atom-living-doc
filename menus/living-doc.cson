@@ -2,8 +2,13 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Open Living Doc'
-      'command': 'living-doc:open'
+      'label': 'Living Docs'
+      'submenu': [
+        {
+          'label': 'Open Living File'
+          'command': 'living-doc:open-file'
+        }
+      ]
     }
   ]
 'menu': [
@@ -13,12 +18,20 @@
       'label': 'Living Doc'
       'submenu': [
         {
-          'label': 'Open Living Doc'
-          'command': 'living-doc:open'
+          'label': 'Open Living File'
+          'command': 'living-doc:open-file'
         },
         {
-          'label': 'Open Living Doc Preview'
-          'command': 'living-doc:open-markdown'
+          'label': 'Open Living File Preview'
+          'command': 'living-doc:open-file-preview'
+        },
+        {
+          'label': 'Open Living Folder'
+          'command': 'living-doc:open-folder'
+        },
+        {
+          'label': 'Open Living Folder Preview'
+          'command': 'living-doc:open-folder-preview'
         }
       ]
     ]

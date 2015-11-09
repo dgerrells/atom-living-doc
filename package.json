@@ -5,8 +5,10 @@
   "description": "Helps maintain living documentation",
   "keywords": [],
   "activationEvents": [
-    "living-doc:open",
-    "living-doc:open-markdown"
+    "living-doc:open-file",
+    "living-doc:open-file-preview",
+    "living-doc:open-folder",
+    "living-doc:open-folder-preview"
   ],
   "repository": "https://github.com/dgerrells/atom-living-doc",
   "license": "MIT",

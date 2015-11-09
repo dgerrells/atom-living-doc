@@ -8,5 +8,7 @@
 # For more detailed documentation see
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 'atom-workspace':
-  'ctrl-shift-a': 'living-doc:open',
-  'ctrl-shift-q': 'living-doc:open-markdown'
+  'alt-J': 'living-doc:open-file',
+  'alt-K': 'living-doc:open-folder',
+  'ctrl-alt-j': 'living-doc:open-file-preview',
+  'ctrl-alt-k': 'living-doc:open-folder-preview'
